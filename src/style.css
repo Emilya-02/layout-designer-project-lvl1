@@ -36,8 +36,6 @@ font-weight: normal;
 
 body {
   margin: 0;
-  width: 1440px;
-  margin: 0 auto;
   overflow-x: hidden;
 }
 
@@ -73,6 +71,7 @@ header {
   position: relative;
   height: 914px;
   background: #f5f4f0;
+  width: 100%;
 }
 
 header::before {
