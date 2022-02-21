@@ -308,7 +308,7 @@ main img:nth-child(2n+2) {
 .background__dark_1 {
   position: relative;
   background: #b09a81;
-  height: 855px;
+  min-height: 855px;
 }
 
 .background__dark_1::before {
@@ -317,10 +317,20 @@ main img:nth-child(2n+2) {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 855px;
+  min-height: 100%;
   background: url("img/background.png");
   opacity: 0.1;
   z-index: 0;
+}
+
+.background__dark_1 h2:nth-child(1) {
+  color:#fe8a02;
+}
+
+.background__dark_1 li,
+.background__dark_1 p {
+  color: #fff;
+  font-family: Open Sans;
 }
 
 .more_detailed__dark {
