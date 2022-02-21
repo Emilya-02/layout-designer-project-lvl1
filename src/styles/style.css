@@ -391,7 +391,7 @@ main img:nth-child(2n+2) {
   background-size: cover;
   width: 100%;
   height: 937px;
-  background: url("img/background.png");
+  background: url("../img/background.png");
   opacity: 0.1;
   z-index: 0;
 }
