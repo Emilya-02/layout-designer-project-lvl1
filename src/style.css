@@ -96,13 +96,13 @@ header h1 {
   width: auto;
   position: absolute;
   top: 55px;
-  right: -270px;
+  right: -105px;
 }
 
 .flex__header {
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 170px;
+  margin-top: 165px;
 }
 
 header .item {
