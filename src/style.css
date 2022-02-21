@@ -305,6 +305,28 @@ main img:nth-child(2n+2) {
   margin-left: 15px;
 }
 
+.flex__text .p_item {
+  width: 50%;
+  padding: 0;
+  line-height: 25.6px;
+}
+
+.p_item p {
+  width: 100%;
+}
+
+.flex__text .p_item:nth-child(1) {
+  margin-right: 15px;
+}
+
+.flex__text .p_item:nth-child(2) {
+  margin-left: 15px;
+}
+
+.p_item p:nth-child(2) {
+  margin-left: 0;
+}
+
 .background__dark_1 {
   position: relative;
   background: #b09a81;
