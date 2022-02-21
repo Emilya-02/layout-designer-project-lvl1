@@ -131,7 +131,7 @@ header a {
 }
 
 .block_with_video {
-  height: 809px;
+  height: 806px;
 }
 
 .block_with_video h2 {
@@ -142,6 +142,7 @@ header a {
 .block_with_video p {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 15px;
 }
 
 .video {
